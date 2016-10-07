@@ -19,7 +19,7 @@ Inside this folder, do a `npm install` to install all dependencies.
 
 The tests are then run as a npm run script. To do so, run `npm test`
 
-To easier run the tests locally, for instance if you want to only run a single or group of tests for debuggin/settup up. Its recomended to install codeceptjs locally.
+To easier run the tests locally, for instance if you want to only run a single or group of tests for debugging/setup. Its recomended to install codeceptjs locally.
 
 To do so, run a `npm install -g codeceptjs`
 
