@@ -3,12 +3,18 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "Nightmare": {
-      "url": "http://localhost:3000",
-      "show": false
-    },
-    "NightmareCustom": {
-      "require": "./nightmarecustom_helper.js"
+    "WebdriverIO": {
+        "url": "http://sl.dev9.1508test.dk/",
+        "browser": "chrome",
+        "user": "bsuser4964",
+        "key": "KpxBxCQB5baDBkFUZCSJ",
+        "desiredCapabilities": {
+            "browserName": "chrome",
+            "os": "Windows",
+            "os_version": "10",
+            "browserstack.local": "false",
+            "browserstack.debug": "false"
+        }
     }
   },
   "include": {
