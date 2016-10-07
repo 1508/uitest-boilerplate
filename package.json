@@ -18,7 +18,6 @@
     "devDependencies": {
         "chai": "^3.5.0",
         "codeceptjs": "^0.4.6",
-        "express": "^4.14.0",
         "mocha-teamcity-reporter": "^1.1.1",
         "nightmare": "^2.7.0",
         "nightmare-upload": "^0.1.1",
