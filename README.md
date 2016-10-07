@@ -4,6 +4,8 @@ Boilerplate setup using CodeceptJS/NightmareJS to run automated acceptance/UI te
 
 Can be used to test core pages after a commit, and see if they respond as they should.
 
+See a demo here - https://github.com/1508/codeceptjs-demo
+
 ## How to run
 
 To setup a solution with the boilerplate, create a new folder in the solution somewhere. We recomend to put it alongside the regular web project in the solution.
