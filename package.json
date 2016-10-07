@@ -1,20 +1,20 @@
 {
-    "name": "codeceptjs-demo",
+    "name": "uitest-boilerplate",
     "version": "1.0.0",
-    "description": "Testing end2end, test tools",
+    "description": "Ui Test setup using CodeceptJS and NightmareJS",
     "scripts": {
         "test": "codeceptjs run",
         "test-teamcity": "codeceptjs run --reporter mocha-teamcity-reporter"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/1508/codeceptjs-demo.git"
+        "url": "git+https://github.com/1508/uitest-boilerplate.git"
     },
-    "author": "Sune Radich Vestergaard",
+    "author": "Sune Radich Vestergaard | 1508",
     "bugs": {
-        "url": "https://github.com/1508/codeceptjs-demo/issues"
+        "url": "https://github.com/1508/uitest-boilerplate/issues"
     },
-    "homepage": "https://github.com/1508/codeceptjs-demo#readme",
+    "homepage": "https://github.com/1508/uitest-boilerplate#readme",
     "devDependencies": {
         "chai": "^3.5.0",
         "codeceptjs": "^0.4.6",
