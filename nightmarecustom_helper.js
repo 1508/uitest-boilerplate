@@ -32,7 +32,7 @@ class NightmareCustom extends Helper {
         });
     }
 
-    getServerResponseCode(expectedValue) {
+    haveServerResponseCode(expectedValue) {
 
         // let's use chai assertion library
         let expect = require('chai').expect;
