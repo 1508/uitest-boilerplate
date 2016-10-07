@@ -31,9 +31,10 @@ See more config options http://codecept.io/commands/
 
 Normally the tests are run against a headless browser, but you can turn on a visual browser by editing the codeceptjs.json file.
 
-`"Nightmare": {
-      "url": "http://<sitename>.1508test.dk/",
-      "show": false
-    },
-`
+```
+"Nightmare": {
+   "url": "http://<sitename>.1508test.dk/",
+   "show": false
+},
+```
 Change the show property to `true` to see the Electron browser window when running the tests.
