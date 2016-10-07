@@ -1,5 +1,5 @@
-# CodeceptJS
+# UI Test boilerplate
 
-Demo of how CodeceptJS can be used to test various urls and what response codes the server gives back
+Boilerplate setup using CodeceptJS/NightmareJS to run automated acceptance/UI tests
 
 Can be used to test core pages after a commit, and see if they respond as they should.
