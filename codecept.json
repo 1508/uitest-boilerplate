@@ -4,15 +4,15 @@
   "output": "./output",
   "helpers": {
     "Nightmare": {
-      "url": "http://localhost:3000",
+      "url": "http://1508.dk",
       "show": false
     },
     "NightmareCustom": {
-      "require": "./nightmarecustom_helper.js"
+      "require": "./helpers/nightmarecustom_helper.js"
     }
   },
   "include": {
-    "I": "./steps_file.js"
+    "I": "./steps/steps_file.js"
   },
   "bootstrap": false,
   "mocha": {
