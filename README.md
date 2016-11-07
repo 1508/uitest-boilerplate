@@ -17,7 +17,7 @@ For instance in a project with folders like:
 
 You would create a folder called "Customer.UITest".
 
-Inside this folder, do a `npm install` to install all dependencies.
+Clone this repo to that folder, and run a `npm install` in the folder to install all dependencies.
 
 The tests are then run as a npm run script. To do so, run `npm test`
 
