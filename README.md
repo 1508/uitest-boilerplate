@@ -29,6 +29,11 @@ You can now do `codeceptjs run -- grep "Core"` to run all Features or Scenarios 
 
 See more config options http://codecept.io/commands/
 
+### Teamcity
+The setup is prepared with a special run setup for when running on Teamcity. The only difference is that the reporting is not done to screenoutput, but in a teamcity compatible xml format.
+
+To run the tests for teamcity, execute `npm run test-teamcity`
+
 ### How do I see what the test actually does?
 
 Normally the tests are run against a headless browser, but you can turn on a visual browser by editing the codeceptjs.json file.
